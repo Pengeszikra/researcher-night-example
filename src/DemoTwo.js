@@ -1,1 +1,0 @@
-export const DemoTwo = () => <h1></h1>;

@@ -3,13 +3,27 @@ body {
   margin: 0;
   background-color: #555;
   overflow: hidden;
+  color: #FED;
+  font-size: 18px;
 }
 
-.debug-panel {
+.debug-panel, .inactive {
   user-select: none;
   pointer-events: none;
-  color: #FED;
+}
+
+.absolute {
   position: absolute;
-  top: 1em;
-  left: 1em;
+  top: 0;
+  left: 0;
+}
+
+.button {
+  background-color: #33A;
+  &:hover {background-color: rgb(38, 38, 116);}
+  padding: .4em;
+  margin: .4em;
+  color: white;
+  cursor: pointer;
+  user-select: none;
 }

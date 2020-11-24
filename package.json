@@ -1,7 +1,7 @@
 {
-  "name": "react-base",
+  "name": "researcher-night-example",
   "version": "0.1.0",
-  "description": "react-base-setup",
+  "description": "researcher-night-example 2020 OE",
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
@@ -10,7 +10,7 @@
     "test": "jest",
     "watch": "jest --watchAll"
   },
- "devDependencies": {
+  "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-pipeline-operator": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.9.0",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "sty": "^0.6.1"
   }
 }

@@ -1,5 +1,6 @@
 import { render } from 'react-dom';
 import { DemoOne } from './DemoOne';
-import { DemoTwo } from './DemoTwo';
+import Pelda from './Pelda';
+import './style.scss'
 
-render(<DemoOne />, document.getElementById("base"));
+render(<Pelda />, document.getElementById("base"));
