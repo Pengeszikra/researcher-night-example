@@ -1,1 +1,1 @@
-export const DemoTwo = () => <h1>hello functional programming course I.</h1>;
+export const DemoTwo = () => <h1></h1>;

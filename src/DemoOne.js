@@ -27,7 +27,7 @@ export const DemoOne = props => {
     </pre>
     <svg viewBox={viewBox} {...interactions}>
       <g stroke="#FFF" fill="none">
-        {points.map( line => <polygon points={line} />)}
+        {points.map( (line, key) => <polygon points={line} key={key} />)}
         {draw.length >= 4 && <polygon points={draw} strokeDasharray={[1,8]}/>}
       </g>
     </svg>
