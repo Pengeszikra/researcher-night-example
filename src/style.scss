@@ -1,0 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #555;
+  overflow: hidden;
+}
+
+.debug-panel {
+  user-select: none;
+  pointer-events: none;
+  color: #FED;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}

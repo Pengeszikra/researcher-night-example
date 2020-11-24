@@ -1,3 +1,5 @@
 import { render } from 'react-dom';
+// import { DemoOne } from './DemoOne';
+import { DemoTwo } from './DemoTwo';
 
-render(<pre>react-base-hello-message</pre>, document.getElementById("base"));
+render(<DemoTwo />, document.getElementById("base"));
